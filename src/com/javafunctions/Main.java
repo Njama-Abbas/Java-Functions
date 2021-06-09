@@ -4,28 +4,24 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
-
-public  static  void announceTeaTime(){
-    //these are the lines of code to be executed when the function is used
-    System.out.println("Awaiting for the announcement......");
-    System.out.println("Type in a random word and press enter to start the developer tea-time ");
-    Scanner scanner = new Scanner(System.in);
-    scanner.next();
-    System.out.println("It is developer Tea Time");
-}
-    public static void main(String[] args) {
-	/*
-        differentiate between definition and usage
+    /*
+        A function that accepts inputs
+        Having a dynamic output depending on what was inputted in a function
+        Write a function to calculate the total cost of a meal
+        --Tip = tipRate * listedMealPrice
+        --tax = taxRate * listedMealPrice
+        --total cost = tip +tax listedMealPrice
          */
-        System.out.println("Welcome to your new Job");
 
-        announceTeaTime();
 
-        System.out.println("Write code");
-        System.out.println("Review Code");
+    public static void calculateTotalMealPrice() {
 
-        announceTeaTime();
-        System.out.println("Get Promoted");
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to Java House");
+
 
     }
 }
