@@ -6,10 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
         /*
-        sample exponential function
-        all you have to know is the functions inputs and output
-        if there is a built-in functionality for what you want to implement
-         use it instead of having to define your own
+        create a function to calculate the employees salary
+        given how many hours a person works per week and how much a person makes per hour
+        inputs [hours/week pay/hour]
+        output: employees gross yearly salary
+        Bonus - add an input that accounts for the vacation days and the
+        employee does not get paid on vacation days
          */
         System.out.println(Math.pow(4, 5));
 
